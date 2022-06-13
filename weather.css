@@ -1,0 +1,155 @@
+.card{
+    height: 700px;
+    width: 1000px;
+    background-image: url(./img/lo.jpg);
+    background-size: cover;
+    background-position: 35%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+   
+    
+}
+
+.weather{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(96,61,44);
+    background: radial-gradient(circle, rgba(96,61,44,1) 29%, rgba(23,18,18,1) 84%);
+    display: none;
+}
+
+
+
+.a{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 30px;
+    
+}
+
+.weather-temp{
+    font-size: 144px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    margin: 0 auto;
+    margin-left: 750px;
+    position: relative;
+    top: 70px;
+   
+}
+
+
+.weather-country{
+    font-family: 'Josefin Sans', sans-serif;
+     color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    font-size: 64px;
+}
+.weather-city{
+    font-family: 'Josefin Sans', sans-serif;
+     color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 485px;
+    font-size: 64px;
+}
+
+.block{
+    height: 100px;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 250px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+.weather-comment{
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
+    position: relative;
+    top: 160px;
+    left: 110px;
+}
+
+.humidity-procent{
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+    position: relative;
+    top: 280px;
+    left: 80px;
+    
+}
+.humidity-img{
+    width: 22px;
+    height: 24px;
+    position: relative;
+    top: 285px;
+    left: 78px;
+    
+}
+
+.weather-icon{
+    height: 70px;
+    width: 75px;
+    position: absolute;
+    top: 255px;
+    left: 350px;
+
+
+}
+.vis-procent{
+   font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+    position: relative;
+    top: 280px;
+    left: 80px;
+}
+
+.vis-img{
+    width: 22px;
+    height: 24px;
+    position: relative;
+    top: 285px;
+    left: 78px;
+    
+}
+
+.feelslike-title{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: "Heebo", sans-serif;
+    position: relative;
+    top:40px ;
+   
+    margin-left: 710px;
+}
+.feelslike-temp{
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: "Heebo", sans-serif;
+    position: relative;
+    top:40px ;
+    
+}
+.localtime-title{
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: "Heebo", sans-serif;
+    position: relative;
+    top:-40px ;
+    margin-left: 710px;
+}
+.localtime-time{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Heebo", sans-serif;
+    position: relative;
+    top:-40px ;
+}

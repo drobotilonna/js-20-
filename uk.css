@@ -1,0 +1,63 @@
+.card-3{
+    height: 700px;
+    width: 1000px;
+    background-image: url(./img/lo.jpg);
+    background-size: cover;
+    background-position: 35%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+   
+    
+}
+.weather-3{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(21,94,75);
+    background: linear-gradient(120deg, rgba(21,94,75,0.7413559173669468) 20%, rgba(205,138,53,0.7357536764705883) 87%);
+    display: none;
+}
+
+
+
+
+
+.weather-temp-3{
+    font-size: 144px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    margin: 0 auto;
+    margin-left: 750px;
+    position: relative;
+    top: 70px;
+   
+}
+
+
+.weather-country-3{
+    font-family: 'Josefin Sans', sans-serif;
+     color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    font-size: 64px;
+}
+.weather-city-3{
+    font-family: 'Josefin Sans', sans-serif;
+     color: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 475px;
+    font-size: 64px;
+}
+
+
+.weather-comment-3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
+    position: relative;
+    top: 160px;
+    left: 80px;
+}
